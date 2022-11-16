@@ -1,0 +1,34 @@
+{
+  "type": "module",
+  "name": "furnicraft-book-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js",
+    "docker-mongo-start": "docker-compose up -d",
+    "docker-mongo-stop": "docker-compose stop"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaximMukhin/furnicraft-book-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaximMukhin/furnicraft-book-server/issues"
+  },
+  "homepage": "https://github.com/MaximMukhin/furnicraft-book-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1"
+  }
+}
