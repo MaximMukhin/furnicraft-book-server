@@ -21,7 +21,7 @@ const articleSchema = new mongoose.Schema(
       type: Number,
       default: 0,
     },
-    direction: {
+    type: {
       type: String,
       enum: [ARTICLE_TYPE.PRODUCT, ARTICLE_TYPE.GLOBAL],
       default: ARTICLE_TYPE.GLOBAL,
